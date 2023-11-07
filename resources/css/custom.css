@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .slideInDown {
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown;
@@ -14,23 +15,39 @@
     animation-fill-mode: both;
 }
 
-#rmsCard{
-    border-color: #55C152!important;
-    background: #55C152!important;
+#rmsCard {
+    background: linear-gradient(transparent, transparent 50%, #55C152 50%, #55C152);
+    background-size: 100% 200%;
+    color: #55C152;
+    /*trasition effect for background*/
+    transition: background 1s;
+    outline: 3px solid #55C152;
+}
+
+#rmsCard:hover {
+
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    background-position: 100% 100%;
     color: white;
 }
-#rmsCard:hover{
 
+#crmCard {
+    background: linear-gradient(transparent, transparent 50%, rebeccapurple 50%, rebeccapurple);
+    background-size: 100% 200%;
+    color: rebeccapurple;
+    /*trasition effect for background*/
+    transition: background 1s;
+    outline: 3px solid rebeccapurple;
 }
 
-#crmCard{
-    border-color: rebeccapurple!important;
-    background: rebeccapurple!important;
+#crmCard:hover {
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    background-position: 100% 100%;
     color: white;
 }
-#crmCard:hover{
 
-}
 @-webkit-keyframes slideInDown {
     0% {
         -webkit-transform: translateY(-100%);
@@ -42,6 +59,7 @@
         transform: translateY(0);
     }
 }
+
 @keyframes slideInDown {
     0% {
         -webkit-transform: translateY(-100%);
