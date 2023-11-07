@@ -27,8 +27,8 @@
     <div class="w-50 p-5 mx-auto">
         <div class="row px-0 px-lg-5">
             <div class="col-lg-6 col-12 px-0 px-lg-5">
-                <a href="/STEAM-CRM" class="text-decoration-none">
-                <div class="card rounded-0 text-bg-success">
+                <a href="/STEAM-CRM" class="text-decoration-none text-black">
+                <div class="card rounded-0 border border-3" id="crmCard">
                     <div class="card-body pb-1">
                         <h5 class="card-title text-uppercase fw-bold">Login to CRM</h5>
                     </div>
@@ -36,10 +36,10 @@
                 </a>
             </div>
             <div class="col-lg-6 col-12 px-0 px-lg-5 mt-lg-0 mt-3">
-                <a href="/STEAM-RMS" class="text-decoration-none">
-                <div class="card rounded-0" style="background: rebeccapurple">
+                <a href="/STEAM-RMS" class="text-decoration-none text-black">
+                <div class="card rounded-0 border border-3"  id="rmsCard">
                     <div class="card-body pb-1">
-                        <h5 class="card-title text-uppercase fw-bold text-white">Login to RMS</h5>
+                        <h5 class="card-title text-uppercase fw-bold">Login to RMS</h5>
                     </div>
                 </div>
                 </a>
@@ -49,10 +49,10 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 
 <script>
-    VANTA.DOTS({
+    VANTA.WAVES({
 
         el: "#bodyCanvas",
         mouseControls: true,
@@ -62,10 +62,8 @@
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        showLines: false,
-        color: 0x55C152,
-        size: 6.50,
-        backgroundColor: 0xffffff
+        color: 0x989090,
+        shininess: 5.00
 
 
     })

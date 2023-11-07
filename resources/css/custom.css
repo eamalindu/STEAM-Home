@@ -13,6 +13,24 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+
+#rmsCard{
+    border-color: #55C152!important;
+    background: #55C152!important;
+    color: white;
+}
+#rmsCard:hover{
+
+}
+
+#crmCard{
+    border-color: rebeccapurple!important;
+    background: rebeccapurple!important;
+    color: white;
+}
+#crmCard:hover{
+
+}
 @-webkit-keyframes slideInDown {
     0% {
         -webkit-transform: translateY(-100%);
