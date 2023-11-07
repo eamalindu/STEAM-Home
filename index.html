@@ -18,22 +18,28 @@
     <link href="resources/css/custom.css" rel="stylesheet">
 
 </head>
-<body class="min-vh-100 d-flex align-items-center justify-content-center" id="test">
+<body class="min-vh-100 d-flex align-items-center justify-content-center" id="bodyCanvas">
 
-<div class="container-fluid p-5 text-center slideInDown">
+<div class="container-fluid p-5 text-center" id="mainDiv">
     <h1 class="text-uppercase fw-bolder display-3">Welcome to</h1>
     <img class="mt-3" src="resources/images/logo-sq.png" width="150px">
 
-    <div class="w-50 p-5 bg-info mx-auto mt-4">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="card rounded-0">
-                    <div class="card-body"></div>
+    <div class="w-50 p-5 mx-auto">
+        <div class="row px-0 px-lg-5">
+            <div class="col-lg-6 col-12 px-0 px-lg-5">
+                <a href="/STEAM-CRM" class="text-decoration-none">
+                <div class="card rounded-0 text-bg-success">
+                    <div class="card-body pb-1">
+                        <h5 class="card-title text-uppercase fw-bold">Login to CRM</h5>
+                    </div>
                 </div>
+                </a>
             </div>
-            <div class="col-lg-6">
-                <div class="card rounded-0">
-                    <div class="card-body"></div>
+            <div class="col-lg-6 col-12 px-0 px-lg-5 mt-lg-0 mt-3">
+                <div class="card rounded-0" style="background: rebeccapurple">
+                    <div class="card-body pb-1">
+                        <h5 class="card-title text-uppercase fw-bold text-white">Login to RMS</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,7 +52,7 @@
 <script>
     VANTA.DOTS({
 
-        el: "#test",
+        el: "#bodyCanvas",
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -61,7 +67,9 @@
 
 
     })
-
+    window.addEventListener('DOMContentLoaded',()=>{
+            document.getElementById('mainDiv').classList.add('slideInDown');
+    })
 </script>
 </body>
 </html>
