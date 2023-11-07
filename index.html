@@ -20,18 +20,16 @@
 </head>
 <body class="min-vh-100" id="test">
 
-<div class="container-fluid p-5 text-center">
-    <h1 class="text-uppercase fw-bold text-white">Welcome to STEAM HIGHER EDUCATION</h1>
-    <!--
+<div class="container-fluid p-5 text-center slideInDown">
+    <h1 class="text-uppercase fw-bolder display-3">Welcome to</h1>
     <img class="mt-3" src="resources/images/logo-sq.png" width="150px">
-
--->
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
 
 <script>
-    VANTA.GLOBE({
+    VANTA.DOTS({
 
         el: "#test",
         mouseControls: true,
@@ -41,6 +39,10 @@
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
+        showLines: false,
+        color: 0x55c152,
+        size: 6.50,
+        backgroundColor: 0xffffff
 
 
     })
