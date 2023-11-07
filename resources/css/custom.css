@@ -16,7 +16,7 @@
 }
 
 #rmsCard {
-    background: linear-gradient(transparent, transparent 50%, #55C152 50%, #55C152);
+    background: linear-gradient(black, black 50%, #55C152 50%, #55C152);
     background-size: 100% 200%;
     color: #55C152;
     /*trasition effect for background*/
@@ -33,7 +33,7 @@
 }
 
 #crmCard {
-    background: linear-gradient(transparent, transparent 50%, rebeccapurple 50%, rebeccapurple);
+    background: linear-gradient(black, black 50%, rebeccapurple 50%, rebeccapurple);
     background-size: 100% 200%;
     color: rebeccapurple;
     /*trasition effect for background*/
