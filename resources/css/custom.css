@@ -16,12 +16,12 @@
 }
 
 #rmsCard {
-    background: linear-gradient( #55C152 50%, #55C152,#FFDE17, #FFDE17 50%);
+    background: linear-gradient( #55C152 50%, #55C152, #07cb00, #07cb00 50%);
     background-size: 100% 200%;
     color: white;
     /*transition effect for background*/
-    transition: background 1s;
-    outline: 3px solid #55C152;
+    transition: all ease-in-out 1s;
+    outline: 3px solid #07cb00;
 }
 
 #rmsCard:hover {
@@ -29,25 +29,22 @@
     transition: all ease-in-out 0.5s;
     cursor: pointer;
     background-position: 100% 100%;
-    color: black;
-    outline-color: #FFDE17;
+
 }
 
 #crmCard {
-    background: linear-gradient(rebeccapurple, rebeccapurple 50%, #FFA61A 50%, #FFA61A);
+    background: linear-gradient(rebeccapurple, rebeccapurple 50%, #5000a1 50%, #5000a1);
     background-size: 100% 200%;
     color: white;
     /*transition effect for background*/
-    transition: background 1s;
-    outline: 3px solid rebeccapurple;
+    transition: all ease-in-out 1s;
+    outline: 3px solid #5000a1;
 }
 
 #crmCard:hover {
     transition: all ease-in-out 0.5s;
     cursor: pointer;
     background-position: 100% 100%;
-    color: black;
-    outline-color: #FFA61A;
 }
 
 @-webkit-keyframes slideInDown {
