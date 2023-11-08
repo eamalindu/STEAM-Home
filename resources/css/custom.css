@@ -19,7 +19,7 @@
     background: linear-gradient(black, black 50%, #55C152 50%, #55C152);
     background-size: 100% 200%;
     color: #55C152;
-    /*trasition effect for background*/
+    /*transition effect for background*/
     transition: background 1s;
     outline: 3px solid #55C152;
 }
@@ -36,7 +36,7 @@
     background: linear-gradient(black, black 50%, rebeccapurple 50%, rebeccapurple);
     background-size: 100% 200%;
     color: rebeccapurple;
-    /*trasition effect for background*/
+    /*transition effect for background*/
     transition: background 1s;
     outline: 3px solid rebeccapurple;
 }
