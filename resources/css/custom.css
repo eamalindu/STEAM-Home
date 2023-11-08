@@ -16,9 +16,9 @@
 }
 
 #rmsCard {
-    background: linear-gradient(black, black 50%, #55C152 50%, #55C152);
+    background: linear-gradient( #55C152 50%, #55C152,#FFDE17, #FFDE17 50%);
     background-size: 100% 200%;
-    color: #55C152;
+    color: white;
     /*transition effect for background*/
     transition: background 1s;
     outline: 3px solid #55C152;
@@ -29,13 +29,14 @@
     transition: all ease-in-out 0.5s;
     cursor: pointer;
     background-position: 100% 100%;
-    color: white;
+    color: black;
+    outline-color: #FFDE17;
 }
 
 #crmCard {
-    background: linear-gradient(black, black 50%, rebeccapurple 50%, rebeccapurple);
+    background: linear-gradient(rebeccapurple, rebeccapurple 50%, #FFA61A 50%, #FFA61A);
     background-size: 100% 200%;
-    color: rebeccapurple;
+    color: white;
     /*transition effect for background*/
     transition: background 1s;
     outline: 3px solid rebeccapurple;
@@ -45,7 +46,8 @@
     transition: all ease-in-out 0.5s;
     cursor: pointer;
     background-position: 100% 100%;
-    color: white;
+    color: black;
+    outline-color: #FFA61A;
 }
 
 @-webkit-keyframes slideInDown {
